@@ -1,0 +1,47 @@
+
+My Flask Web Application Project Guide
+======================================
+
+Introduction:
+-------------
+This document provides an overview of the development process of my Flask web application, which focuses on sentiment analysis using a pre-trained LSTM model. It also includes instructions for running the application.
+
+Development Process:
+--------------------
+1. Project Setup and Structure:
+   - Created a main folder named 'app'.
+   - Within 'app', there are two subfolders: 'models' (containing the LSTM model) and 'templates' (containing HTML templates for the web interface).
+   - The primary script of the application is 'app.py'.
+
+2. Flask Application Development:
+   - Utilized Flask, a Python web framework, to create the web application.
+   - Implemented routes in 'app.py' to handle requests and responses.
+   - Used HTML and CSS for the frontend, stored in the 'templates' folder.
+
+3. Integrating LSTM Model:
+   - Integrated a pre-trained LSTM model for sentiment analysis.
+   - The model and its tokenizer are stored in the 'models' folder.
+   - The application processes user input, analyzes sentiment using the LSTM model, and displays the result.
+
+4. Additional Resources:
+   - Included two image files, '1.PNG' and '1.GIF', for use in the web interface.
+
+Creating an Executable:
+-----------------------
+- Used PyInstaller to convert the Flask application into an executable.
+- Packaged the entire Flask application, including templates, models, and images, into a single executable file for easy distribution and execution.
+
+Running the Application:
+------------------------
+1. Run the Executable:
+   - The executable file is located in the 'dist' directory.
+   - Running this file starts a local server for the Flask application.
+
+2. Accessing the Application:
+   - Open a web browser and navigate to 'http://localhost:5000'.
+   - The Flask application's interface should be accessible for interaction.
+
+Conclusion:
+-----------
+This project demonstrates my skills in developing a web application using Flask and integrating machine learning models. The application provides a user-friendly interface for sentiment analysis and showcases my ability to package and distribute a Python-based web application.
+
